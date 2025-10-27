@@ -1,0 +1,5 @@
+CS101/Computer Programming/3.0
+CS203/Data Structures and Algorithms/4.0
+MATH101/Calculus I/3.0
+PHY101/Physics I/3.0
+ENG101/English I/2.0
