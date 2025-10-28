@@ -1,24 +1,14 @@
-// StudentRegistrationSystem.java
 import java.util.Scanner;
 
-/**
- * StudentRegistrationSystem класс: Гол програм класс
- * Програмыг эхлүүлэх, цэс харуулах, хэрэглэгчийн сонголтыг боловсруулах
- */
 public class StudentRegistrationSystem {
-    /**
-     * Гол метод - програмыг эхлүүлнэ
-     * @param args команд мөрийн параметрүүд
-     */
+
     public static void main(String[] args) {
         Registration registration = new Registration();
         
-        // Файлуудыг унших
         registration.readSubjects("Subjects.txt");
         registration.readMajors("Professions.txt");
         registration.readExams("Exams.txt");
         
-        // Цэс харуулах
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
         
